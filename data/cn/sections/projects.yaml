@@ -1,0 +1,73 @@
+# section information
+section:
+  name: 项目
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: PMC
+  filter: "pmc"
+- name: Contributor
+  filter: "contributor"
+- name: Developer
+  filter: "developer"
+
+# your projects
+projects:
+- name: Kubernetes
+  logo: /images/sections/projects/kubernetes.png
+  role: Developer
+  timeline: "2018 - Present"
+  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  summary: 内部云平台的调度层，是我们为用户提供基础服务的根本。
+  tags: ["developer"]
+
+- name: Prometheus
+  logo: /images/sections/skills/prometheus.png
+  role: Developer
+  timeline: "2018 - Present"
+  repo: https://github.com/prometheus/prometheus
+  #url: ""
+  summary: CNCF 的毕业项目，云原生下的观测性大多都是基于本项目实现，我们用于为整个平台提供指标监控和采集方案。
+  tags: ["developer"]
+
+- name: ApacheApisix
+  logo: /images/sections/projects/apisix.jpeg
+  role: PMC
+  timeline: "2019 - Present"
+  repo: https://github.com/apache/apisix
+  #url: ""
+  summary: Apache下毕业最快的顶级项目之一，是一个基于 Openresty 的网关项目，在腾讯服务于数个百万DAU的产品。
+  tags: ["pmc"]
+
+- name: go-restful
+  logo: /images/sections/skills/go.png
+  role: Contributor
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/emicklei/go-restful
+  summary: k8s 用于内部组件通信的 http 框架，没有任何外部以来，同时性能也较高。该框架也是 go-chassis 的路由框架
+  tags: ["contributor"]
+
+
+- name: go-chassis
+  logo: /images/sections/projects/chassis.png
+  role: Contributor
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/go-chassis/go-chassis
+  summary: 华为开源的微服务框架，我们用于内部微服务开发。
+  tags: ["contributor"]
+
+- name: hydra
+  logo: /images/sections/projects/hydra.png
+  role: Contributor
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/ory/hydra
+  summary: 一个实现了oauth2的开源项目，我们用其实现了平台的Oauth2授权。
+  tags: ["contributor"]

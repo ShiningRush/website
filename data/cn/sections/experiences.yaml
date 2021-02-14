@@ -1,0 +1,67 @@
+# section information
+section:
+  name: 经历
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Tencent
+    url: "https://www.tencent.com"
+    location: 深圳
+    # company overview
+    overview: 通过通信及社交平台微信和 QQ 促进用户联系，并助其连接数字内容和生活服务，尽在弹指间。通过高效广告平台，协助品牌和市场营销者触达数以亿计的中国消费者。通过金融科技及企业服务，促进合作伙伴业务发展，助力实现数字化升级。
+  positions:
+  - designation: 高级软件工程师
+    start: 2019-05
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - 内部云平台的微服务架构设计和开发
+    - 为平台用户提供云原生相关的技术支持
+    - 在内部推广和协同 ApacheAPISIX
+
+- company:
+    name: 万汇互联
+    url: "https://www.followme.com/about/us"
+    location: 深圳
+    overview: FOLLOWME 成立于 2015 年，是一个交易社区。全球不同国家的外汇交易用户可以通过 FOLLOWME 建立联系。在这个社区，用户可以分享交易经验，展示交易策略，与其他交易者一起交流。超过 170 个国家的 770,000 用户，已经在 FOLLOWME 注册。支持全球 3,000 多家交易商的账户连接，用户可以通过 COPYTRADE 来实现自动跟随交易。
+  positions:
+  - designation: 高级软件工程师
+    start: 2018/5
+    end: 2019/5
+    responsibilities:
+    - 社交产品的架构设计和开发
+    - CRM系统维护和二次开发
+
+- company:
+    name: 巨鼎医疗
+    url: "http://www.clearofchina.com/list/LianXiWoMen.html"
+    location: 深圳
+    overview: 总部位于中国深圳，多年来专注于智慧医疗大健康领域，提供医用胶片、自助打印终端、智能云影像集成服务平台等影像服务，与智慧医院、智慧医保、“双平台”医共体等智慧医疗建设解决方案，及助力全球抗疫、赋能多场景应急隔离需求的便携式病房解决方案。
+  positions:
+  - designation: 软件工程师
+    start: 2016/3
+    end: 2018/5
+    responsibilities:
+    - 社交产品的架构设计和开发
+    - CRM系统维护和二次开发
+
+- company:
+    name: AbeamSystem
+    url: "https://www.intern.com"
+    location: 名古屋
+    overview: 属于 Abeam 集团下的一家日本 ERP 公司，专注于企业应用，为企业提供定制化ERP开发
+  positions:
+  - designation: 助理软件工程师
+    start: 2014/9
+    end: 2016/3
+    responsibilities:
+    - ERP 系统的维护和二次开发
+    - 设计文档的编写

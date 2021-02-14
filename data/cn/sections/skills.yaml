@@ -1,0 +1,53 @@
+# section information
+section:
+  name: 技能
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: "熟练掌握k8s工作原理，熟悉 k8s 部分模块代码，编写过 k8s operator 和 webhook，并为平台用户提供 k8s 相关的技术咨询"
+  url: "https://kubernetes.io/"
+
+- name: Go Development
+  logo: /images/sections/skills/go.png
+  summary: "主要的工作语言，使用 go 编写过 QPS 超过 5w 以上的大型项目，同时也为 go-restful, go-chassis等开源项目贡献过代码。"
+  url: "https://golang.org/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "熟练掌握 Docker 的用法与工作原理，过往项目全都基于容器化部署，也为平台用户提供容器相关技术咨询。"
+  url: "https://www.docker.com/"
+
+- name: Prometheus
+  logo: /images/sections/skills/prometheus.png
+  summary: "熟悉 Prometheus 工作原理和部分源码，基于 Promehtues 和 M3 为平台搭建了一套分布式的监控体系，每秒采集超过千万数据点。"
+  url: "https://prometheus.io/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "主要的工作平台，熟练在 linux 环境下编写脚本、定位问题，同时也对 linux CPU调度和内核有一定了解。"
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "作为 Github 的活跃开发者，熟练掌握 Git 的大多数功能"
+  url: "https://git-scm.com/"
+
+- name: .Net
+  logo: /images/sections/skills/dotnet.png
+  summary: "曾经的第一语言，现在的第二语言。使用 .NetCore 构建过日访问量千万级别的社交项目。在日企和医疗设备公司也用 .Net 为公司构建稳定的主应用。"
+
+- name: Lua
+  logo: /images/sections/skills/lua.svg
+  summary: "作为 Apache Apisix 的 PMC，使用 lua 为项目编写过许多插件。"
+
+- name: C++
+  logo: /images/sections/skills/c++.png
+  summary: "在日企使用 c++ 构建过中型 MFC 客户端项目，也使用过 c++ 编写过 windows 平台下的网络中间层限速组件"

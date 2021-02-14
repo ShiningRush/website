@@ -1,0 +1,34 @@
+# section information
+section:
+  name: 学历
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: 电子信息工程
+  icon: fa-graduation-cap
+  timeframe: 2012-2016
+  institution:
+    name: 大连大学
+    url: "http://www.dlu.edu.cn/"
+  grade: #(optional)
+    scale: 绩点
+    achieved: 4.2
+    outOf: 5
+  extracurricularActivities: #(optional)
+  - 2012 全国大学生电子设计大赛——优秀奖
+  - 2013 全国大学生电子设计大赛——优秀奖
+  - 2012 校内ACM——一等奖
+  - 2013 校内ACM——一等奖
+- name: 高中
+  icon: fa-school
+  timeframe: 2007-2010
+  institution:
+    name: 凯里第八中学
+  extracurricularActivities: #(optional)
+  - 应届生第一名毕业

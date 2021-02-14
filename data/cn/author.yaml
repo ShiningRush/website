@@ -1,0 +1,17 @@
+# some information about you
+name: "ShiningRush"
+nickname: "ShiningRush"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/vinci.jpeg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "277040271@qq.com"
+  phone: "+8613603043209"
+
+# some summary about what you do
+summary:
+  - "Apacha APISIX PMC"
+  - "系统架构设计师"
+  - "开源贡献者"
+  - "Go / Web / .Net Developer"
