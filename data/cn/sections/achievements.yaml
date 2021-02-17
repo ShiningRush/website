@@ -2,7 +2,7 @@
 section:
   name: 成就
   id: achievements
-  enable: true
+  enable: false
   weight: 7
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -10,15 +10,15 @@ section:
 
 # Your achievements achievements
 achievements:
-- title: ApacheApisix PMC
+- title: 认证系统架构设计师
   image: /images/sections/achievements/presenter.jpg
-  summary: 2020年 成为ApacheApisix PMC
-- title: 系统架构设计师
-  image: /images/sections/achievements/sport.jpg
   summary: 2019年 获得国家软考认证——系统架构设计师
+- title: ApacheApisix PMC
+  image: /images/sections/achievements/apache.png
+  summary: 2020年 成为ApacheApisix PMC
 - title: PMP
-  image: /images/sections/achievements/graduation-cap.jpg
+  image: /images/sections/achievements/pmp.jpeg
   summary: 2019年 获得 PMP 认证
 - title: 华为云 Go 线下沙龙讲师
-  image: /images/sections/achievements/woman-winner.jpg
+  image: /images/sections/achievements/graduation-cap.jpg
   summary: 2020 年 华为云 Go 线下沙龙特邀讲师
