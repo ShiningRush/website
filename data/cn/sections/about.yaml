@@ -15,7 +15,7 @@ company:
   url: "https://www.tencent.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+resume: "resume_cn.pdf"
 
 # a summary about you
 summary: '我工作于腾讯IEG，和小组的其他同事负责一个面向公司内部的云平台。我的主要工作是主导平台的微服务架构设计和开发，同时为我们的用户提供技术咨询，帮助公司的产品从传统架构转型到云原生。工作之余我也热爱开源贡献，为众多开源项目都曾贡献过自己的代码。'

@@ -26,7 +26,7 @@ projects:
   role: Developer
   timeline: "2018 - Present"
   repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  summary: 内部云平台的调度层，是我们为用户提供基础服务的根本。
+  summary: 内部云平台的调度层，是我们为用户提供基础服务的根本，我一般会编写一些 controller、webhook 以及 operator 来为平台用户提供特性功能。
   tags: ["developer"]
 
 - name: Prometheus
@@ -35,7 +35,7 @@ projects:
   timeline: "2018 - Present"
   repo: https://github.com/prometheus/prometheus
   #url: ""
-  summary: CNCF 的毕业项目，云原生下的观测性大多都是基于本项目实现，我们用于为整个平台提供指标监控和采集方案。
+  summary: CNCF 的毕业项目，云原生下的观测性大多都是基于本项目实现，我用于为整个平台提供指标监控和采集方案，采集每秒千万级别的性能指标和业务指标。
   tags: ["developer"]
 
 - name: ApacheApisix
@@ -44,7 +44,7 @@ projects:
   timeline: "2019 - Present"
   repo: https://github.com/apache/apisix
   #url: ""
-  summary: Apache下毕业最快的顶级项目之一，是一个基于 Openresty 的网关项目，在腾讯服务于数个百万DAU的产品。
+  summary: Apache下毕业最快的顶级项目之一，是一个基于 Openresty 的网关项目，在腾讯服务于数个百万DAU的产品。作为其PMC，为其贡献过诸如CORS, BatchRequest等特性，同时也会参与项目的设计评审与CR。。
   tags: ["pmc"]
 
 - name: go-restful
@@ -52,7 +52,7 @@ projects:
   role: Contributor
   timeline: "Jun 2019 - Present"
   repo: https://github.com/emicklei/go-restful
-  summary: k8s 用于内部组件通信的 http 框架，没有任何外部以来，同时性能也较高。该框架也是 go-chassis 的路由框架
+  summary: k8s 用于内部组件通信的 http 框架，没有任何外部依赖，同时性能也较高，该框架也是 go-chassis 的路由框架，我为其贡献了GoogleAPI 设计规范的 CustomMethod.
   tags: ["contributor"]
 
 
@@ -61,7 +61,7 @@ projects:
   role: Contributor
   timeline: "Jun 2019 - Present"
   repo: https://github.com/go-chassis/go-chassis
-  summary: 华为开源的微服务框架，我们用于内部微服务开发。
+  summary: 华为开源的微服务框架，我用于内部微服务开发，迭代过程帮助项目提升了性能与稳定性，因此受邀作为讲师参加了华为赞助的Gopher线下沙龙。
   tags: ["contributor"]
 
 - name: hydra
@@ -69,5 +69,5 @@ projects:
   role: Contributor
   timeline: "Jun 2019 - Present"
   repo: https://github.com/ory/hydra
-  summary: 一个实现了oauth2的开源项目，我们用其实现了平台的Oauth2授权。
+  summary: 一个实现了oauth2的开源项目，我用其实现了平台的Oauth2授权，在使用过程中为项目贡献了一些fixs。
   tags: ["contributor"]
