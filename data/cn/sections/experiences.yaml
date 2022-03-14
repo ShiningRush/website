@@ -11,6 +11,18 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: ByteDance
+    url: "https://www.bytedance.com"
+    location: 广州
+    overview: 北京字节跳动科技有限公司，简称字节跳动，是一家位于中国北京的跨国互联网技术公司，成立于2012年3月，旗下有产品今日头条和抖音（及其海外版本TikTok）、西瓜视频等。
+  positions:
+  - designation: 服务端工程师
+    start: 2021/09
+    responsibilities:
+    - 多租户平台的研发及CR工作
+    - ToB方向的技术探索以及解决方案构建
+
+- company:
     name: Tencent
     url: "https://www.tencent.com"
     location: 深圳
@@ -18,10 +30,8 @@ experiences:
     overview: 通过通信及社交平台微信和 QQ 促进用户联系，并助其连接数字内容和生活服务，尽在弹指间。通过高效广告平台，协助品牌和市场营销者触达数以亿计的中国消费者。通过金融科技及企业服务，促进合作伙伴业务发展，助力实现数字化升级。
   positions:
   - designation: 高级软件工程师
-    start: 2019-05
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+    start: 2019/05
+    end: 2021/09
     responsibilities:
     - 内部云平台的微服务架构设计和开发
     - 为平台用户提供云原生相关的技术支持
