@@ -9,5 +9,5 @@ description: Portfolio and personal blog of John Doe.
 customMenus:
 - name: 博客
   url: http://blog.dreamrounder.com
-# - name: 在线简历
-#   url: http://resume.dreamrounder.com
+- name: 在线简历
+  url: http://resume.dreamrounder.com
