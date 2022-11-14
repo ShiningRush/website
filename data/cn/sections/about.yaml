@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: 高级研发工程师
+designation: 服务端架构师
 company:
   name: ByteDance
   url: "https://www.bytedance.com"
@@ -17,7 +17,7 @@ company:
 resume: "resume_cn.pdf"
 
 # a summary about you
-summary: '我目前就职于字节中台架构团队，负责 ToB 方向的技术探索以及构建解决方案，同时也担任多租户平台相关的开发工作，为公司其他中台提供通用能力以及BP服务。此前在腾讯游戏的容器团队，维护内部的容器云平台，主要职责为主导平台的微服务架构设计和开发，同时为我们的用户提供技术咨询，帮助公司的产品从传统架构转型到云原生，具备丰富的云原生架构经验。工作之余也热衷为开源项目添砖加瓦，为众多开源项目都曾贡献过代码。'
+summary: '我目前就职于字节智能创作云团队，负责研发团队的基础架构方向，小组的核心职责为保障线上可靠性、同时为业务线提供 "WriteOnce, RunAnywhere" 的技术底座，为业务的可迁移（私有化部署）、存算资源管理以及流量治理提供统一的基础设施。此前在腾讯游戏的容器团队，维护内部的容器云平台，主要职责为主导平台的微服务架构设计和开发，同时为我们的用户提供技术咨询，帮助公司的产品从传统架构转型到云原生，具备丰富的云原生架构经验。工作之余也热衷为开源项目添砖加瓦，为众多开源项目都曾贡献过代码。'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

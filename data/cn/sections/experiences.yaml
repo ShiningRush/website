@@ -16,11 +16,12 @@ experiences:
     location: 广州
     overview: 北京字节跳动科技有限公司，简称字节跳动，是一家位于中国北京的跨国互联网技术公司，成立于2012年3月，旗下有产品今日头条和抖音（及其海外版本TikTok）、西瓜视频等。
   positions:
-  - designation: 服务端工程师
+  - designation: 服务端架构师
     start: 2021/09
     responsibilities:
-    - 多租户平台的研发及CR工作
-    - ToB方向的技术探索以及解决方案构建
+    - 带领基础架构团队为业务团队提供"Write Once, Run Anywhere"的技术基座
+    - 保障线上服务的可靠性(确立SLI、SLO与应急处理、解决性能瓶颈问题与低频偶现问题等)
+    - 为本团队与兄弟团队的产品私有化做好技术支持，并将经验沉淀为公司内可复用的组件与指引
 
 - company:
     name: Tencent
