@@ -1,0 +1,10 @@
+{
+    "run_type": "client",
+    "local_addr": "127.0.0.1",
+    "local_port": 1080,
+    "remote_addr": "dreamrounder.com",
+    "remote_port": 4430,
+    "password": [
+        "your_awesome_password"
+    ]
+}

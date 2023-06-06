@@ -1,0 +1,17 @@
+{
+    "run_type": "server",
+    "local_addr": "0.0.0.0",
+    "local_port": 4430,
+    "remote_addr": "website",
+    "remote_port": 80,
+    "password": [
+        "your_awesome_password"
+    ],
+    "ssl": {
+        "cert": "/etc/nginx/ssl/live/dreamrounder.com/fullchain.pem",
+        "key": "/etc/nginx/ssl/live/dreamrounder.com/privkey.pem"
+    },
+    "mux": {
+        "enabled": true
+    }
+}

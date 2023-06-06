@@ -21,10 +21,10 @@ services:
     image: shiningrush/resume:latest
     volumes:
       - ./certbot/www:/var/www/certbot/:ro
-  ss:
-    image: shadowsocks/shadowsocks-libev:latest
-    environment:
-      - PASSWORD=simplepassword
+  trojan-go:
+    image: p4gefau1t/trojan-go:latest
+    volumes:
+      - ./certbot/conf/:/etc/nginx/ssl/:rw
+      - ./conf/server.json:/etc/trojan-go/config.json
     ports:
-      - "8388:8388"
-      - "8388:8388/udp"
+      - "4430:4430"
