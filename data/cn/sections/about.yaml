@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: 服务端架构师
+designation: AI 基础架构负责人
 company:
   name: ByteDance
   url: "https://www.bytedance.com"
@@ -17,7 +17,7 @@ company:
 resume: "resume_cn.pdf"
 
 # a summary about you
-summary: '我目前就职于字节智能创作云团队，负责研发团队的基础架构方向，小组的核心职责为保障线上可靠性、同时为业务线提供 "WriteOnce, RunAnywhere" 的技术底座，为业务的可迁移（私有化部署）、存算资源管理以及流量治理提供统一的基础设施。此前在腾讯游戏的容器团队，维护内部的容器云平台，主要职责为主导平台的微服务架构设计和开发，同时为我们的用户提供技术咨询，帮助公司的产品从传统架构转型到云原生，具备丰富的云原生架构经验。工作之余也热衷为开源项目添砖加瓦，为众多开源项目都曾贡献过代码。'
+summary: '我目前就职于字节智能创作-AI平台部门，该部门提供了抖音剪映(C端)以及火山引擎(B端)的绝大多数AI能力。而我则负责其中基础架构方向的研发团队，涉及的主要技术包括网关、模型存储、工程框架、SRE、研发规范以及推理交付平台等，上接AI工程团队，下接字节基础设施，为团队打造高质高效的AI交付链路。此前在腾讯游戏负责容器平台的研发，为上层业务提供推理与训练平台，推动大量游戏业务向云原生转型，积累了丰富的云原生经验。工作之余也热爱参与开源，为ApacheAPISIX 的 PMC Member，也贡献/参与过不少开源项目，详情请移步Github个人页。'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
