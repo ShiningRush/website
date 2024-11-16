@@ -23,6 +23,8 @@ services:
       - ./certbot/www:/var/www/certbot/:ro
   trojan-go:
     image: p4gefau1t/trojan-go:latest
+    depends_on:
+      - "website"
     volumes:
       - ./certbot/conf/:/etc/nginx/ssl/:rw
       - ./conf/server.json:/etc/trojan-go/config.json
